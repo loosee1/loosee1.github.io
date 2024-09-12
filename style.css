@@ -1,0 +1,100 @@
+body {
+    background-color: #ffd9b1;
+    font-family: Helvetica, Arial, sans-serif;
+    margin:0px;
+    font-size: 1.6vw;
+}
+
+p {
+    font-size: 0.7em;
+}
+
+body > header {
+    background-color: #e17701;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body > footer {
+    background-color: #e17701;
+    display: flex;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a {
+    color:#c65102;
+    text-decoration: none;
+}
+
+#logo{
+    margin:0px;
+    padding: 8px;
+    font-family: "Fredoka", sans-serif;
+    text-shadow:
+    1px 1px 0px black,
+    -1px 1px 0px black,
+    1px -1px 0px black,
+    -1px -1px 0px black;
+    width: 26%
+}
+
+ul {
+    margin:0px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: #c65102;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid #c65102;
+    border-radius: 10%;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 8px;
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around ;
+}
+
+#main-content > div {
+    width: 70%;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+}
